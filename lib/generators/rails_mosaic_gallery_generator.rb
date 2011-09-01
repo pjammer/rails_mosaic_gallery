@@ -7,5 +7,6 @@ class RailsMosaicGalleryGenerator < Rails::Generators::Base
   def move_files
     copy_file 'css/mosaic_plugin.css', "public/stylesheets/mosaic_plugin.css"
     directory "javascripts", 'public/javascripts/mosaic_plugin'
+    directory "images", "public/images"
   end
 end
