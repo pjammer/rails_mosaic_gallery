@@ -6,14 +6,7 @@
 	By Sam Dunn / One Mighty Roar (www.onemightyroar.com)
 	Released under MIT License / GPL License
 */
-
-* {
-	margin:0;
-	padding:0;
-	border:none;
-	outline:none;
-}
-
+/* The Height and Width in mosaic-block, you will probably need to change. */
 /*General Mosaic Styles*/
 .mosaic-block {
 	float:left;
